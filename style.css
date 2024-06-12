@@ -312,7 +312,7 @@ section h2 {
     height: auto;
     max-height: none; /* Снимаем ограничения на максимальную высоту изображения */
 }
-@media (min-width: 641px) {
+@media (max-width: 641px) {
 	.gallery-item {flex: 1 1 calc(100% - 20px); margin: 10px 0; box-shadow:0 0 10px rgba(0, 0, 0, 0.5);}
 	.modal-content .image-container {margin: 100px auto auto auto;}
 	header .wrap, .head .wrap {width: 98%; justify-content: space-evenly;}
