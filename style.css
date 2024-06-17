@@ -241,7 +241,7 @@ section h2 {border-bottom: 2px solid #FEA116; display: inline-block; margin-bott
 	.modal-content, .modal-content .image-container {width:100%;}
 	.prev, .next {top:25%;}
 	.modal-content .image-container {margin: 50px auto auto auto;}
-	header .wrap, .head .wrap {width: 98%; justify-content: right;}
+	header .wrap, .head .wrap {width: 98%; justify-content: right; height: 70px;}
 	.logo, header a {font-size: 20px;}
 	.lang ul {width: auto;}
 	section {font-size: 14px;}
@@ -251,7 +251,7 @@ section h2 {border-bottom: 2px solid #FEA116; display: inline-block; margin-bott
 	.head .wrap {display: block; text-align: center;}
 	.head a, .head span {padding: 5px; display: inline-block;}
 	section {padding-left: 10px;}
-	.logo {position: absolute; left: 20px; z-index: 9999999;}
+	.logo {position: absolute; left: 20px; z-index: 9999999; width: 40%;}
 	footer {padding: 10px 0 20px 0;}
 }
 
