@@ -235,7 +235,7 @@ section h2 {border-bottom: 2px solid #FEA116; display: inline-block; margin-bott
 .mob_menu li {list-style: none; padding: 5px;}
 .mob_menu a {text-decoration: none;}
 .mob_menu {display: none;}
-@media (max-width:641px) {
+@media screen and (max-width: 640px) {
 	.gallery-item {flex: 1 1 calc(100% - 20px); margin: 10px 0; box-shadow:0 0 10px rgba(0, 0, 0, 0.5);}
 	.modal-content .image-container {margin: 100px auto auto auto;}
 	header .wrap, .head .wrap {width: 98%;}
