@@ -164,7 +164,7 @@ section h2 {border-bottom: 2px solid #FEA116; display: inline-block; margin-bott
     position: fixed;
     z-index: 999999;
     top: 0;
-    left: -50%;
+    left: -70%;
     background: rgba(15, 23, 43);
     transition: all 0.5s;   
     width: 70%;
