@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ирина Звягинцева | Веб разработка - Верстка</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="img/logo1.jpg">
+</head>
+
+<body>
+<header>
+	<div class="wrap">
+		<a class="logo_link" href="index-ru.html">
+			<div class="logo">
+				Ирина Звягинцева
+			 </div>
+		</a>
+		<nav class="lept_menu">
+			<ul>
+				<li><a href="index-ru.html">Обо мне</a></li>
+			  <li><a href="#">Галерея работ</a>
+				  <ul>
+					  <li class="child_links">
+					  	<a href="turnkey-ru.html">Сайт "Под ключ"</a>
+					  </li>
+					  <li class="child_links">
+					  	<a href="layout-ru.html">HTML Вёрстка</a>
+					  </li>
+					  <li class="child_links">
+					  	<a href="support-ru.html">Поддержки</a>
+					  </li>
+				  </ul>
+			  </li>
+			</ul>
+		</nav>
+		<div class="lang">
+			<ul>
+				<li><a href="#" class="ru">Русский</a>
+					<ul>
+						<li>
+							<a href="layout.html" class="eng child_links">English</a>
+						</li>
+						<li>
+							<a href="layout-ua.html" class="ukr child_links">Український</a>
+						</li>
+					</ul> 
+				</li>
+			</ul>
+		</div>
+		
+				<!--Мобильное Меню-->
+		<div class="mob_menu">
+			<input type="checkbox" id="side-checkbox" />
+			<div class="side-panel">
+				<label class="side-button-2" for="side-checkbox">✕</label>
+				<ul>
+					<li><a href="index-ru.html">Обо мне</a></li>
+					  <li><a href="turnkey-ru.html">Сайт "Под ключ"</a></li>
+					  <li><a href="layout-ru.html">HTML Вёрстка</a></li>
+					  <li><a href="support-ru.html">Поддержки</a></li>
+				</ul>
+			</div>
+			<div class="side-button-1-wr">
+				<label class="side-button-1" for="side-checkbox">
+					<div class="side-open"><div class="menu_icon"></div></div>
+					<div class="side-b side-close"><div class="close_menu">✕</div></div>
+				</label>
+			</div>
+		</div>
+
+	</div>
+</header>
+<div class="head">
+	<div class="wrap">
+		<span>Киев, Украина</span>
+		<a class="tel_head" href="tel:+380976007119">
+			+38 (097) 600 71 19
+		</a>
+		<a href="mailto:zvyguny@gmail.com">zvyguny@gmail.com</a>
+		<a href="tg://resolve?domain=Irina_Zv">Telegram</a>
+		<a href="https://www.linkedin.com/in/irina-zvjaginceva-97547050" target="_blank">linkedin</a>
+	</div>
+</div>
+<div class="content">
+	<div class="wrap">
+	<h1 class="title">Портфолио | Веб разработка - Верстка</h1>
+        <div class="gallery-container">
+             <!-- Галерея 4 -->
+            <div class="gallery-item" data-gallery-id="4">
+                <h3>Футбольный Легион – Адаптация старого сайта под мобильные устройства.</h3>
+                <img src="img/layout/4_legion.png" alt="Легион" title="Легион" class="img-thumbnail preview" onclick="openModal(4, 0)">
+                <div class="descr">
+					<p><a href="www.f-legion.com" target="_blank">www.f-legion.com</a></p>
+					Адаптация самописного сайта 2006 для корректного отображения на мобильных устройствах.
+				</div>
+                <div class="hidden-gallery" data-gallery-id="4">
+                    <img src="img/layout/4_legion.png" alt="Легион" title="Легион" class="not_high">
+                </div>
+            </div>
+            <!-- Галерея 3 -->
+            <div class="gallery-item" data-gallery-id="3">
+                <h3>ТендерТех – Участие в запуске стартапа.</h3>
+                <img src="img/layout/3_tendertech.png" alt="ТендерТех" title="ТендерТех" class="img-thumbnail preview" onclick="openModal(3, 0)">
+                <div class="descr">
+					Работа в команде по запуску стартапа, ответственная за верстку сайта.
+				</div>
+                <div class="hidden-gallery" data-gallery-id="3">
+                    <img src="img/layout/3_tendertech.png" alt="ТендерТех" title="ТендерТех" class="not_high">
+                </div>
+            </div>
+			<!-- Галерея 2 -->
+            <div class="gallery-item" data-gallery-id="2">
+                <h3>Создание сайта-визитки для парикмахера-стилиста.</h3>
+                <img src="img/layout/2_hairdresser_1.jpg" alt="Парикмахер-стилист" title="Парикмахер-стилист" class="img-thumbnail preview" onclick="openModal(2, 0)">
+                <div class="descr">
+					Верстка сайта-визитки с уникальным дизайном для предоставления услуг парикмахера-стилиста.
+				</div>
+                <div class="hidden-gallery" data-gallery-id="2">
+                    <img src="img/layout/2_hairdresser_1.jpg" alt="Парикмахер-стилист" title="Парикмахер-стилист"  class="not_high">
+					<img src="img/layout/2_hairdresser_2.jpg" alt="Парикмахер-стилист" title="Парикмахер-стилист"  class="not_high">
+                    <img src="img/layout/2_hairdresser_3.png" alt="Парикмахер-стилист" title="Парикмахер-стилист"  class="not_high">
+                </div>
+            </div>
+            <!-- Галерея 1 -->
+            <div class="gallery-item" data-gallery-id="1">
+                <h3>Интернет-магазин цветов.</h3>
+                <img src="img/layout/1_flower_1.jpg" alt="Цветы" title="Цветы" class="img-thumbnail preview" onclick="openModal(1, 0)">
+                <div class="descr">
+					Разработка и верстка интернет-магазина цветов с использованием платформы ShopOS.
+				</div>
+                <div class="hidden-gallery" data-gallery-id="1">
+                    <img src="img/layout/1_flower_1.jpg" alt="Цветы" title="Цветы" class="not_high">
+                    <img src="img/layout/1_flower_2.jpg" alt="Цветы" title="Цветы" class="not_high">
+                    <img src="img/layout/1_flower_3.jpg" alt="Цветы" title="Цветы" class="not_high">
+                    <img src="img/layout/1_flower_4.jpg" alt="Цветы" title="Цветы" class="not_high">
+                    <img src="img/layout/1_flower_5.jpg" alt="Цветы" title="Цветы" class="not_high">
+                    <img src="img/layout/1_flower_6.jpg" alt="Цветы" title="Цветы" class="not_high">
+                    <img src="img/layout/1_flower_7.jpg" alt="Цветы" title="Цветы" class="not_high">
+                </div>
+            </div>
+        </div>
+
+        <!-- Модальное окно -->
+        <div id="modal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+				<div class="image-container">
+					<img class="modal-image" id="modal-image">
+				</div>
+				<a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+				<a class="next" onclick="changeSlide(1)">&#10095;</a>
+			</div>
+		</div>
+        <!-- Конец галереи -->
+	</div>
+</div>
+<footer class="head">
+	<div class="wrap">
+		<span>Киев, Украина</span>
+		<a class="tel_head" href="tel:+380976007119">
+			+38 (097) 600 71 19
+		</a>
+		<a href="mailto:zvyguny@gmail.com">zvyguny@gmail.com</a>
+		<a href="tg://resolve?domain=Irina_Zv">Telegram</a>
+		<a href="https://www.linkedin.com/in/irina-zvjaginceva-97547050" target="_blank">linkedin</a>
+	</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
