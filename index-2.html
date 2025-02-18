@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Аренда Mig</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta property="og:title" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+	<link rel="icon" type="image/x-icon" href="img/ico.png">
+</head>
+<body class="page">
+	<div class="bg-opac"></div>
+	<div class="form-block">
+		<div class="form-block__logo">
+			<a href="/index.html">
+				<img src="img/Logowhite.png" alt="Аренда Mig">
+			</a>
+		</div>
+		<div class="form-wrap">
+			<form action="mail.php" method="post" id="form">
+				<p class="form-title">Оставьте заявку сейчас</p>
+				<p class="form-desc">И мы лично проконсультируем вас по работе с нашим сервисом</p>
+				<div class="form_radio">
+				 <input type="radio" name="eduform" class="radio" value="Сдать" placeholder="Сдать" required /><label>Сдать </label>
+				 <input type="radio" name="eduform" class="radio" value="Снять" placeholder="Снять" /><label>Снять </label>
+				 </div>
+				<input type="text" name="name" placeholder="Ваше имя" required />
+				<input type="text" name="phone" class="phone-field" placeholder="Ваш телефон" required />
+				<textarea name="text" class="textarea" maxlength="200" placeholder="Описание"></textarea>
+				<button class="btn">Отправить
+					<?xml version="1.0" encoding="iso-8859-1"?>
+										<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+										<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 width="326.58px" height="326.58px" viewBox="0 0 326.58 326.58" style="enable-background:new 0 0 326.58 326.58;"
+											 xml:space="preserve">
+										<g>
+											<g>
+												<path d="M94.201,160.039L7.322,73.166c-1.094-1.092-2.873-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961l84.892,84.901
+													L0.821,249.454c-1.094,1.096-1.094,2.879,0,3.963c0.548,0.557,1.265,0.816,1.981,0.816c0.717,0,1.438-0.275,1.987-0.816
+													l89.412-89.424C95.296,162.915,95.296,161.139,94.201,160.039z"/>
+												<path d="M116.603,253.417c0.547,0.557,1.264,0.816,1.98,0.816c0.718,0,1.434-0.275,1.987-0.816l89.401-89.413
+													c1.084-1.094,1.084-2.87,0-3.964l-86.874-86.873c-1.094-1.092-2.872-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961
+													l84.887,84.896l-87.42,87.431C115.504,250.549,115.504,252.333,116.603,253.417z"/>
+												<path d="M234.36,254.233c0.713,0,1.434-0.275,1.986-0.816l89.425-89.424c1.078-1.089,1.078-2.864,0-3.959l-86.907-86.868
+													c-1.082-1.092-2.866-1.092-3.963,0c-1.083,1.091-1.083,2.867,0,3.961l84.904,84.901l-87.432,87.426
+													c-1.093,1.096-1.093,2.879,0,3.963C232.921,253.973,233.64,254.233,234.36,254.233z"/>
+											</g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										<g>
+										</g>
+										</svg>					
+				</button>
+			</form>
+			<div class="form-result hide">
+				<p class="form-result__title">Спасибо за отклик</p>
+				<p class="form-result__desc">Мы обработаем Вашу заявку и перезвоним в ближаейшее время</p>
+				<div class="form-result__icon">
+					<?xml version='1.0' encoding='iso-8859-1'?>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470.005 470.005" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 470.005 470.005">
+				  <g>
+				    <path d="m469.432,96.718l-38.144-92.086c-1.585-3.827-5.973-5.646-9.799-4.059l-126.339,52.332c-3.827,1.585-5.645,5.973-4.059,9.799l.995,2.402-206.151,85.39c-1.838,0.761-3.298,2.221-4.059,4.059-0.762,1.838-0.762,3.902 0,5.74l.995,2.403-78.238,32.409c-3.827,1.585-5.645,5.973-4.059,9.799l22.682,54.759c0.761,1.838 2.221,3.298 4.059,4.059 0.919,0.38 1.895,0.571 2.87,0.571s1.951-0.19 2.87-0.571l78.239-32.407 .995,2.403c1.196,2.888 3.988,4.632 6.932,4.632 0.956,0 1.929-0.184 2.867-0.573l185.363-76.78c3.827-1.585 5.645-5.973 4.059-9.799-1.585-3.827-5.971-5.646-9.799-4.059l-178.435,73.91-24.673-59.564 199.223-82.52 31.407,75.825c0.761,1.838 2.221,3.298 4.059,4.059 0.919,0.38 1.895,0.571 2.87,0.571s1.951-0.19 2.87-0.571l27.713-11.479c0.007-0.003 98.627-40.853 98.627-40.853 1.838-0.761 3.298-2.221 4.059-4.059 0.763-1.84 0.763-3.904 0.001-5.742zm-363.878,120.74l-71.31,29.537-16.941-40.901 71.31-29.537 16.941,40.901zm234.667-75.337l-31.407-75.824c-0.001-0.001-0.995-2.403-0.995-2.403l13.859-5.741 32.402,78.227-13.859,5.741zm27.717-11.481l-32.402-78.227 84.766-35.111 32.403,78.227-84.767,35.111z"/>
+				    <path d="m282.462,320.182h0.13c4.143,0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-4.301l-6.815-24.509c-0.902-3.245-3.857-5.491-7.226-5.491h-21.747v-54.809l24.616-10.197c3.827-1.585 5.645-5.973 4.059-9.799-1.586-3.826-5.972-5.644-9.799-4.059l-29.257,12.119c-0.022,0.009-0.045,0.018-0.067,0.028l-29.17,12.083c-3.827,1.585-5.645,5.973-4.059,9.799 1.196,2.888 3.988,4.632 6.932,4.632 0.956,0 1.929-0.184 2.867-0.573l18.877-7.819v48.596h-21.747c-3.368,0-6.323,2.246-7.226,5.491l-6.815,24.509h-4.301c-4.143,0-7.5,3.358-7.5,7.5s3.357,7.5 7.5,7.5h0.13l-39.014,140.312c-1.11,3.991 1.226,8.125 5.217,9.235 3.989,1.107 8.125-1.227 9.234-5.217l40.132-144.33h24.39v142.321c0,4.142 3.357,7.5 7.5,7.5s7.5-3.358 7.5-7.5v-142.322h24.39l40.132,144.33c0.923,3.319 3.938,5.493 7.222,5.493 0.665,0 1.341-0.089 2.013-0.276 3.991-1.11 6.327-5.245 5.217-9.235l-39.014-140.312zm-75.177-15l4.171-15h47.096l4.171,15h-55.438z"/>
+				  </g>
+				</svg>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header">
+			<div class="logo">
+				<a href="/index.html">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195" height="35" viewBox="0 0 195 35"><g>	<g transform="translate(-15 -19)"><image width="195" height="35" transform="translate(15 19)" xlink:href="data:image/png;base64,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"/></g></g>
+				</svg>
+				</a>
+			</div>
+			<nav class="navigation">
+				<ul>
+					<li><a href="#" class="active fade-in slide-1">Главная</a></li>
+					<li><a href="#" class="fade-in slide-2">Проблемы</a></li>
+					<li><a href="#" class="fade-in slide-3">Решение</a></li>
+					<li><a href="#anchorSec" class="fade-in anchSec">База квартир и клиентов</a></li>
+				</ul>
+			</nav>
+	</div>
+	<div class="main-slider">
+		<div class="swiper-container swiper-container-s1">
+		  <div class="social-links">
+					<div class="social-links__twit">
+						<a href="#">
+							<?xml version="1.0" encoding="iso-8859-1"?>
+						<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
+						<g id="XMLID_826_">
+							<path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
+								c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
+								c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
+								C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
+								c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
+								c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
+								c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
+								c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
+								c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
+								c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
+								c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
+								C307.394,57.037,305.009,56.486,302.973,57.388z"/>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						</svg>
+						</a>
+					</div>
+					<div class="social-links__inst">
+						<a href="#">
+							<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h362c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm-180 390c-74.441406 0-135-60.558594-135-135s60.558594-135 135-135 135 60.558594 135 135-60.558594 135-135 135zm150-240c-24.8125 0-45-20.1875-45-45s20.1875-45 45-45 45 20.1875 45 45-20.1875 45-45 45zm0 0"/><path d="m407 90c-8.277344 0-15 6.722656-15 15s6.722656 15 15 15 15-6.722656 15-15-6.722656-15-15-15zm0 0"/><path d="m257 150c-57.890625 0-105 47.109375-105 105s47.109375 105 105 105 105-47.109375 105-105-47.109375-105-105-105zm0 0"/></svg>
+						</a>
+					</div>
+					<div class="social-links__fb">
+						<a href="#">
+							<?xml version="1.0" encoding="iso-8859-1"?>
+								<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+							<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 width="430.113px" height="430.114px" viewBox="0 0 430.113 430.114" style="enable-background:new 0 0 430.113 430.114;"
+										 xml:space="preserve">
+									<g>
+										<path id="Facebook" d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805
+											c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354
+											c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z"/>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									</svg>						
+						</a>
+					</div>
+			</div>		
+			<div class="bg-moon parallax-bg" data-swiper-parallax-y="-100"><img src="img/moon.png" alt=""></div>		
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide main">
+			      <div class="main-left">
+							<h1>Остался наедине<span>с поиском жилья?</span></h1>
+							<p class="title-desc">Теперь <span class="tc">вся база</span> килентов и арендаторов собрана в <span class="tc">одном месте</span></p>
+							<div class="btn show-form">
+								<a href="javascript:void(0)">Оставить заявку
+									<?xml version="1.0" encoding="iso-8859-1"?>
+									<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+									<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 width="326.58px" height="326.58px" viewBox="0 0 326.58 326.58" style="enable-background:new 0 0 326.58 326.58;"
+										 xml:space="preserve">
+									<g>
+										<g>
+											<path d="M94.201,160.039L7.322,73.166c-1.094-1.092-2.873-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961l84.892,84.901
+												L0.821,249.454c-1.094,1.096-1.094,2.879,0,3.963c0.548,0.557,1.265,0.816,1.981,0.816c0.717,0,1.438-0.275,1.987-0.816
+												l89.412-89.424C95.296,162.915,95.296,161.139,94.201,160.039z"/>
+											<path d="M116.603,253.417c0.547,0.557,1.264,0.816,1.98,0.816c0.718,0,1.434-0.275,1.987-0.816l89.401-89.413
+												c1.084-1.094,1.084-2.87,0-3.964l-86.874-86.873c-1.094-1.092-2.872-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961
+												l84.887,84.896l-87.42,87.431C115.504,250.549,115.504,252.333,116.603,253.417z"/>
+											<path d="M234.36,254.233c0.713,0,1.434-0.275,1.986-0.816l89.425-89.424c1.078-1.089,1.078-2.864,0-3.959l-86.907-86.868
+												c-1.082-1.092-2.866-1.092-3.963,0c-1.083,1.091-1.083,2.867,0,3.961l84.904,84.901l-87.432,87.426
+												c-1.093,1.096-1.093,2.879,0,3.963C232.921,253.973,233.64,254.233,234.36,254.233z"/>
+										</g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									</svg>
+
+								</a>
+							</div>
+						</div>
+						<div class="main-right">
+							<div class="main-right__questions">
+								<div data-offset="30" class="parallax">Кто может помочь?</div>
+								<div data-offset="35" class="parallax">Почему?</div>
+								<div data-offset="32" class="parallax">Клиенты платят не вовремя?</div>
+								<div data-offset="36" class="parallax">Как бы проще?</div>
+								<div data-offset="33" class="parallax">Анализ цен я сделал, что дальше?</div>
+								<div data-offset="29" class="parallax">Не получается сдать квартиру?</div>
+								<div data-offset="35" class="parallax">Нету хороших арендаторов?</div>
+							</div>
+							<div class="main-right__cosmonaut">
+								<img src="img/cosmonaut.png" alt="cosmonaut">
+							</div>
+						</div>
+		      </div>
+		      <div class="swiper-slide problem">
+						<h2><span class="tc">2</span> самые распостранённые проблемы</h2>
+						<p class="title-desc">с 1 причиной - отсутствия единой упорядоченой базы</p>
+						<div class="problem__reasons">
+							<p class="problem__reasons-first">
+								Арендаторы устали <br>от лохотронов со стороны агенств <br>и нечестных хозяев квартир
+							</p>
+							<div class="problem__reasons-cosmonaut">
+								<img src="img/cosmonaut.png" alt="cosmonaut">
+							</div>
+							<p class="problem__reasons-second">
+								Арендодатели тоже устали от тех<br> же самых обманщиков и плохих <br>жильцов
+							</p>
+						</div>
+						<div class="btn show-form">
+							<a href="javascript:void(0)">
+								Оставить заявку
+								<?xml version="1.0" encoding="iso-8859-1"?>
+									<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+									<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 width="326.58px" height="326.58px" viewBox="0 0 326.58 326.58" style="enable-background:new 0 0 326.58 326.58;"
+										 xml:space="preserve">
+									<g>
+										<g>
+											<path d="M94.201,160.039L7.322,73.166c-1.094-1.092-2.873-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961l84.892,84.901
+												L0.821,249.454c-1.094,1.096-1.094,2.879,0,3.963c0.548,0.557,1.265,0.816,1.981,0.816c0.717,0,1.438-0.275,1.987-0.816
+												l89.412-89.424C95.296,162.915,95.296,161.139,94.201,160.039z"/>
+											<path d="M116.603,253.417c0.547,0.557,1.264,0.816,1.98,0.816c0.718,0,1.434-0.275,1.987-0.816l89.401-89.413
+												c1.084-1.094,1.084-2.87,0-3.964l-86.874-86.873c-1.094-1.092-2.872-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961
+												l84.887,84.896l-87.42,87.431C115.504,250.549,115.504,252.333,116.603,253.417z"/>
+											<path d="M234.36,254.233c0.713,0,1.434-0.275,1.986-0.816l89.425-89.424c1.078-1.089,1.078-2.864,0-3.959l-86.907-86.868
+												c-1.082-1.092-2.866-1.092-3.963,0c-1.083,1.091-1.083,2.867,0,3.961l84.904,84.901l-87.432,87.426
+												c-1.093,1.096-1.093,2.879,0,3.963C232.921,253.973,233.64,254.233,234.36,254.233z"/>
+										</g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									</svg>
+							</a>
+						</div>      	
+		      </div>
+		      <div class="swiper-slide about">
+						<h2><span class="tc">Аренда Миг</span> – уникальный  сервис аренды  жилья  в Москве</h2>
+						<p class="title-desc">который сделал прорыв в сфере найма недвижимости и разорвал установленные ранее шаблоны
+						<br>где был возможен обман, не выгодные сделки и долгий поск нужного варианта </p>			
+						<div class="about__world">
+								<div class="about__world-cloud">
+									<img src="img/cloud-big.png" alt="cloud">
+								</div>
+								<div class="about__world-cloud">
+									<img src="img/cloud-big.png" alt="cloud">
+								</div>
+								<div class="about__world-cloud">
+									<img src="img/cloud-big.png" alt="cloud">
+								</div>
+								<div class="about__world-cloud">
+									<img src="img/cloud-big.png" alt="cloud">
+								</div>
+								<div class="about__world-cloud">
+									<img src="img/cloud-tiny.png" alt="cloud">
+								</div>
+								<div class="about__world-cloud">
+									<img src="img/cloud-tiny.png" alt="cloud">
+								</div>
+								<div class="about__world-cloud">
+									<img src="img/cloud-tiny.png" alt="cloud">
+								</div>
+								<div class="about__world-cloud">
+									<img src="img/cloud-tiny.png" alt="cloud">
+								</div>				
+						</div>
+						<div class="btn show-form">
+							<a href="javascript:void(0)">Оставить заявку
+								<?xml version="1.0" encoding="iso-8859-1"?>
+									<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+									<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 width="326.58px" height="326.58px" viewBox="0 0 326.58 326.58" style="enable-background:new 0 0 326.58 326.58;"
+										 xml:space="preserve">
+									<g>
+										<g>
+											<path d="M94.201,160.039L7.322,73.166c-1.094-1.092-2.873-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961l84.892,84.901
+												L0.821,249.454c-1.094,1.096-1.094,2.879,0,3.963c0.548,0.557,1.265,0.816,1.981,0.816c0.717,0,1.438-0.275,1.987-0.816
+												l89.412-89.424C95.296,162.915,95.296,161.139,94.201,160.039z"/>
+											<path d="M116.603,253.417c0.547,0.557,1.264,0.816,1.98,0.816c0.718,0,1.434-0.275,1.987-0.816l89.401-89.413
+												c1.084-1.094,1.084-2.87,0-3.964l-86.874-86.873c-1.094-1.092-2.872-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961
+												l84.887,84.896l-87.42,87.431C115.504,250.549,115.504,252.333,116.603,253.417z"/>
+											<path d="M234.36,254.233c0.713,0,1.434-0.275,1.986-0.816l89.425-89.424c1.078-1.089,1.078-2.864,0-3.959l-86.907-86.868
+												c-1.082-1.092-2.866-1.092-3.963,0c-1.083,1.091-1.083,2.867,0,3.961l84.904,84.901l-87.432,87.426
+												c-1.093,1.096-1.093,2.879,0,3.963C232.921,253.973,233.64,254.233,234.36,254.233z"/>
+										</g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									</svg>						
+							</a>
+						</div>      	
+		      </div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination"></div>
+		</div>
+	</div>
+	<div class="apart" id="anchorSec">
+		<h3>Мы собрали базу квартир по Москве в одном приложении</h2>
+		<div class="apart__house">
+			<img src="img/apart-house.png" alt="cosmonaut">
+		</div>
+		<div class="btn show-form">
+			<a href="javascript:void(0)" >Оставить заявку
+				<?xml version="1.0" encoding="iso-8859-1"?>
+					<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+					<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="326.58px" height="326.58px" viewBox="0 0 326.58 326.58" style="enable-background:new 0 0 326.58 326.58;"
+						 xml:space="preserve">
+					<g>
+						<g>
+							<path d="M94.201,160.039L7.322,73.166c-1.094-1.092-2.873-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961l84.892,84.901
+								L0.821,249.454c-1.094,1.096-1.094,2.879,0,3.963c0.548,0.557,1.265,0.816,1.981,0.816c0.717,0,1.438-0.275,1.987-0.816
+								l89.412-89.424C95.296,162.915,95.296,161.139,94.201,160.039z"/>
+							<path d="M116.603,253.417c0.547,0.557,1.264,0.816,1.98,0.816c0.718,0,1.434-0.275,1.987-0.816l89.401-89.413
+								c1.084-1.094,1.084-2.87,0-3.964l-86.874-86.873c-1.094-1.092-2.872-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961
+								l84.887,84.896l-87.42,87.431C115.504,250.549,115.504,252.333,116.603,253.417z"/>
+							<path d="M234.36,254.233c0.713,0,1.434-0.275,1.986-0.816l89.425-89.424c1.078-1.089,1.078-2.864,0-3.959l-86.907-86.868
+								c-1.082-1.092-2.866-1.092-3.963,0c-1.083,1.091-1.083,2.867,0,3.961l84.904,84.901l-87.432,87.426
+								c-1.093,1.096-1.093,2.879,0,3.963C232.921,253.973,233.64,254.233,234.36,254.233z"/>
+						</g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					</svg>
+			</a>
+		</div>		
+	</div>
+	<div class="customers">
+		<div class="customers__head">
+			<h3>Мы собрали базу клиентов в Москве</h3>
+			<p class="title-desc">Более <b>10 000</b> клиентов которые пользуются услугами сьема жилья</p>
+		</div>
+		<div class="customers__slider-wrap">
+	    <div class="swiper-container swiper-container-s2">
+				<div class="swiper-wrapper">
+				  <div class="swiper-slide customers__slide-bg">
+				  	<p class="slide-title">Жана и Костя</p>
+				  	<img src="img/slider-photo/slide-photo1.png" alt="Клиент">
+				  </div>
+				  <div class="swiper-slide customers__slide-bg">
+				  	<p class="slide-title">Наталья Ивановна 40 лет</p>
+				  	<img src="img/slider-photo/slide-photo2.png" alt="Клиент">
+				  </div>
+				  <div class="swiper-slide customers__slide-bg">
+				  	<p class="slide-title">Павел и Анна</p>
+				  	<img src="img/slider-photo/slide-photo3.png" alt="Клиент">
+				  </div>
+				  <div class="swiper-slide customers__slide-bg">
+				  	<p class="slide-title">Алексей 33 года</p>
+				  	<img src="img/slider-photo/slide-photo4.png" alt="Клиент">
+				  </div>
+				  <div class="swiper-slide customers__slide-bg">
+				  	<p class="slide-title">Алена 30 лет</p>
+				  	<img src="img/slider-photo/slide-photo5.png" alt="Клиент">
+				  </div>
+				  <div class="swiper-slide customers__slide-bg">
+				  	<p class="slide-title">Дима и Юля</p>
+				  	<img src="img/slider-photo/slide-photo6.png" alt="Клиент">
+				  </div>
+				  <div class="swiper-slide customers__slide-bg">
+				  	<p class="slide-title">Роман 23 года</p>
+				  	<img src="img/slider-photo/slide-photo7.png" alt="Клиент">
+				  </div>
+				</div>
+		    <!-- Add Arrows -->				  
+			</div>
+	    <div class="button-next">
+	    	<?xml version="1.0" encoding="iso-8859-1"?>
+					<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+					<g>
+						<path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+							c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z
+							"/>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					</svg>
+
+	    </div>
+	    <div class="button-prev">
+				<?xml version="1.0" encoding="iso-8859-1"?>
+				<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+				<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+				<g>
+					<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+						c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				</svg>
+	    	
+	    </div>							
+		</div>	
+		<div class="btn show-form">
+			<a href="javascript:void(0)">Оставить заявку
+				<?xml version="1.0" encoding="iso-8859-1"?>
+					<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+					<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="326.58px" height="326.58px" viewBox="0 0 326.58 326.58" style="enable-background:new 0 0 326.58 326.58;"
+						 xml:space="preserve">
+					<g>
+						<g>
+							<path d="M94.201,160.039L7.322,73.166c-1.094-1.092-2.873-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961l84.892,84.901
+								L0.821,249.454c-1.094,1.096-1.094,2.879,0,3.963c0.548,0.557,1.265,0.816,1.981,0.816c0.717,0,1.438-0.275,1.987-0.816
+								l89.412-89.424C95.296,162.915,95.296,161.139,94.201,160.039z"/>
+							<path d="M116.603,253.417c0.547,0.557,1.264,0.816,1.98,0.816c0.718,0,1.434-0.275,1.987-0.816l89.401-89.413
+								c1.084-1.094,1.084-2.87,0-3.964l-86.874-86.873c-1.094-1.092-2.872-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961
+								l84.887,84.896l-87.42,87.431C115.504,250.549,115.504,252.333,116.603,253.417z"/>
+							<path d="M234.36,254.233c0.713,0,1.434-0.275,1.986-0.816l89.425-89.424c1.078-1.089,1.078-2.864,0-3.959l-86.907-86.868
+								c-1.082-1.092-2.866-1.092-3.963,0c-1.083,1.091-1.083,2.867,0,3.961l84.904,84.901l-87.432,87.426
+								c-1.093,1.096-1.093,2.879,0,3.963C232.921,253.973,233.64,254.233,234.36,254.233z"/>
+						</g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					<g>
+					</g>
+					</svg>
+			</a>
+		</div>
+	</div>
+	<div class="helpCards">
+		<div class="helpCards__block">
+			<div class="helpCards__block-item">
+				<h4>Вы можете арендовать жилье или же сдать квартиру за самые короткие сроки</h4>
+				<p>Для этого теперь не нужно много усилий, только регистрация на нашем сайте и поиск сответствующего раздела на сайте</p>
+			</div>
+			<div class="btn show-form">
+				<a href="javascript:void(0)">Оставить заявку
+					<?xml version="1.0" encoding="iso-8859-1"?>
+						<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+						<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+						<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 width="326.58px" height="326.58px" viewBox="0 0 326.58 326.58" style="enable-background:new 0 0 326.58 326.58;"
+							 xml:space="preserve">
+						<g>
+							<g>
+								<path d="M94.201,160.039L7.322,73.166c-1.094-1.092-2.873-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961l84.892,84.901
+									L0.821,249.454c-1.094,1.096-1.094,2.879,0,3.963c0.548,0.557,1.265,0.816,1.981,0.816c0.717,0,1.438-0.275,1.987-0.816
+									l89.412-89.424C95.296,162.915,95.296,161.139,94.201,160.039z"/>
+								<path d="M116.603,253.417c0.547,0.557,1.264,0.816,1.98,0.816c0.718,0,1.434-0.275,1.987-0.816l89.401-89.413
+									c1.084-1.094,1.084-2.87,0-3.964l-86.874-86.873c-1.094-1.092-2.872-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961
+									l84.887,84.896l-87.42,87.431C115.504,250.549,115.504,252.333,116.603,253.417z"/>
+								<path d="M234.36,254.233c0.713,0,1.434-0.275,1.986-0.816l89.425-89.424c1.078-1.089,1.078-2.864,0-3.959l-86.907-86.868
+									c-1.082-1.092-2.866-1.092-3.963,0c-1.083,1.091-1.083,2.867,0,3.961l84.904,84.901l-87.432,87.426
+									c-1.093,1.096-1.093,2.879,0,3.963C232.921,253.973,233.64,254.233,234.36,254.233z"/>
+							</g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						</svg>
+				</a>
+			</div>   
+		</div>
+		<div class="helpCards__block">
+			<div class="helpCards__block-item">
+				<h4>Если нужна консультация по сделке или юридическое сопровождение Наши специалистыготовы Вам помочь</h4>
+			</div>
+			<div class="btn show-form">
+				<a href="javascript:void(0)">Получить консультацию
+					<?xml version="1.0" encoding="iso-8859-1"?>
+						<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+						<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+						<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 width="326.58px" height="326.58px" viewBox="0 0 326.58 326.58" style="enable-background:new 0 0 326.58 326.58;"
+							 xml:space="preserve">
+						<g>
+							<g>
+								<path d="M94.201,160.039L7.322,73.166c-1.094-1.092-2.873-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961l84.892,84.901
+									L0.821,249.454c-1.094,1.096-1.094,2.879,0,3.963c0.548,0.557,1.265,0.816,1.981,0.816c0.717,0,1.438-0.275,1.987-0.816
+									l89.412-89.424C95.296,162.915,95.296,161.139,94.201,160.039z"/>
+								<path d="M116.603,253.417c0.547,0.557,1.264,0.816,1.98,0.816c0.718,0,1.434-0.275,1.987-0.816l89.401-89.413
+									c1.084-1.094,1.084-2.87,0-3.964l-86.874-86.873c-1.094-1.092-2.872-1.092-3.961,0c-1.095,1.091-1.095,2.867,0,3.961
+									l84.887,84.896l-87.42,87.431C115.504,250.549,115.504,252.333,116.603,253.417z"/>
+								<path d="M234.36,254.233c0.713,0,1.434-0.275,1.986-0.816l89.425-89.424c1.078-1.089,1.078-2.864,0-3.959l-86.907-86.868
+									c-1.082-1.092-2.866-1.092-3.963,0c-1.083,1.091-1.083,2.867,0,3.961l84.904,84.901l-87.432,87.426
+									c-1.093,1.096-1.093,2.879,0,3.963C232.921,253.973,233.64,254.233,234.36,254.233z"/>
+							</g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						<g>
+						</g>
+						</svg>
+				</a>
+			</div>   
+		</div>		
+	</div>
+	<footer class="footer">
+		<div class="footer__logo">
+			Arenda Mig
+		</div>
+		<div class="footer__copy">(с)Все права защищены</div>
+		<div class="footer__phone">
+			<a href="tel:+74952298195">+7(495)229-81-95</a>
+<p><a class="header_email" href="mailto:arendamig@yandex.ru">arendamig@yandex.ru</a></p>
+		</div>
+	</footer>
+<script src="js/jquery.min.js"></script>	
+<script src="js/swiper.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+ 
