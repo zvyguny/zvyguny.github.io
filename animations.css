@@ -1,0 +1,23 @@
+/* Animations */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes text-animation {
+    to { opacity: 1; }
+}
+@keyframes fillBar {
+    from { width: 0; }
+    to { width: attr(data-progress); }
+}
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+@keyframes line-slide {
+    to { width: 15px; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
