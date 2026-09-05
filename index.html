@@ -171,12 +171,17 @@
                 <a href="https://linkedin.com/in/irina-zvjaginceva-97547050" target="_blank">LinkedIn</a>
             </div>
         </div>
-		<div>
-		    <span>Views: </span>
-		    <img src="https://www.daniel-marschall.de/counter/counter.php?id=zvyguny&amp;format=graphic&amp;theme=digital"
-		         alt="Views"
-		         style="vertical-align: middle;">
+		<div style="color: white;">
+		    <span>Views: </span><span id="visitor-count">Loading...</span>
 		</div>
+		
+		<script>
+		fetch('https://www.daniel-marschall.de/counter/counter.php?id=zvyguny&format=plaintext')
+		    .then(response => response.text())
+		    .then(count => {
+		        document.getElementById('visitor-count').textContent = count.trim();
+		    });
+		</script>
     </div>
 </footer>
     <script src="script.js"></script>
